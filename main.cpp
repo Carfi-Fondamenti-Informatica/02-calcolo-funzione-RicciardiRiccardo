@@ -14,15 +14,12 @@ int main() {
    cin >> x;
    cin >> y;
    
-if(x < 0, y >0 )
-   z = a*x - b*y;
-   
-  else (x >= 0, y <= 0)
-     z = a*(x*x) - b*y;
-   else
-      z = a*x + b*(y*y);
-   
-   cout << z << endl;
-   
+if (x < 0 and y > 0){
+		cout << (a*x - b*y) << endl;
+	}else if (x >= 0 and y <= 0) {
+		cout << ( a*(x*x) - b*y) << endl;	
+	}else{
+		cout << (a*x + b*(y*y)) << endl;
+	}
    return 0;
 }
