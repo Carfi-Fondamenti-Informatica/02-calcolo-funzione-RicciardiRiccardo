@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-   int a;
-   int b;
-   int x;
-   int y;
+   float a;
+   float b;
+   float x;
+   float y;
    
    cin >> a;
    cin >> b;
