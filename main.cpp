@@ -8,7 +8,6 @@ int main() {
    int y;
    int z;
    
-   cout << "inserisci i valori di: \n a: \n b: \n x: \n y:";
    cin >> a;
    cin >> b;
    cin >> x;
