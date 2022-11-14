@@ -6,7 +6,6 @@ int main() {
    int b;
    int x;
    int y;
-   int z;
    
    cin >> a;
    cin >> b;
